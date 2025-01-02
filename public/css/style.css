@@ -1,0 +1,76 @@
+/* Reset de marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Style du conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles pour les articles (cards) */
+.card {
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre de la page */
+h1, h2 {
+    color: #343a40;
+}
+
+/* Liens de la navigation */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+/* Section des articles */
+#latest-news {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des boutons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Bouton au survol */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Formulaire dans create.html */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section d'erreur */
+#error-message {
+    color: red;
+    font-weight: bold;
+    background-color: #ffcccc;
+    padding: 10px;
+    border-radius: 5px;
+}
